@@ -2,7 +2,7 @@ version: 2
 
 models:
   - name: customers
-    description: One record per customer
+    description: "{{ doc('customers') }}"
     columns:
       - name: customer_id
         description: Primary key
